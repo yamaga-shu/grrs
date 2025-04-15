@@ -1,0 +1,11 @@
+name: grrs
+services:
+  grrs:
+    container_name: grrs
+    build:
+      context: ./
+      dockerfile: Dockerfile
+    volumes:
+      - ../:/workspace/grrs
+    stdin_open: true
+    tty: true
