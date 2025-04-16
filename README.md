@@ -32,3 +32,20 @@ This project is a command-line application (CLI) written in Rust for learning pu
 ## Usage
 
 Once compiled, you can run the CLI tool by providing it with the required arguments. For example:
+```
+./grrs <pattern> <file_path>
+```
+
+This will search for <pattern> in the provided file.
+
+## Why Rust?
+
+Rust is a modern systems programming language focusing on performance and safety. When creating CLI tools, having a lightweight and efficient binary is essential, and Rust delivers on those fronts.
+
+## Learning Resources
+
+This project is inspired by examples in the following resource:
+- [Command Line Applications in Rust](https://rust-cli.github.io/book/index.html)
+
+Feel free to explore the chapters there to deepen your understanding of Rust CLI development.
+
